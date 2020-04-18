@@ -5,9 +5,9 @@ CXX_FLAGS += -O3 -ffast-math # non-debug version.
 #CXX_FLAGS += -O0 -g # debug version.
 CXX_FLAGS += -I./ # include paths.
 
-LINK_FLAGS = -lstdc++fs # filesystem
+#LINK_FLAGS =
 
-SRCS = geo_cost.cc
+SRCS = solver.cc geo.cc
 
 %.o: %.cc; $(CXX) $(CXX_FLAGS) -o $@ -c $<
 

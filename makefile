@@ -7,7 +7,8 @@ CXX_FLAGS += -I./ # include paths.
 
 #LINK_FLAGS =
 
-SRCS = solver.cc geo.cc
+SRCS = solver.cc geo.cc \
+	   problems/reader.cc
 
 %.o: %.cc; $(CXX) $(CXX_FLAGS) -o $@ -c $<
 

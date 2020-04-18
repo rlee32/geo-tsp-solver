@@ -8,3 +8,4 @@ Style notes:
 3. Namespace follows directory structure. Namespaces will be made for a header name if contents of header are not named the same as header.
 4. Headers have .hh extension and source files have .cc extension.
 5. Compile-time constants are capitilized snake_case.
+6. Braces start inline, and end on a separate line.
